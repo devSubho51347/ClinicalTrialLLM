@@ -40,7 +40,7 @@ wget -O dataset/trec_2021/corpus.jsonl https://ftp.ncbi.nlm.nih.gov/pub/lu/Trial
 wget -O dataset/trec_2022/corpus.jsonl https://ftp.ncbi.nlm.nih.gov/pub/lu/TrialGPT/trec_2022_corpus.jsonl
 ```
 
-## TrialGPT-Retrieval
+## ClinicalTrialLLM-Retrieval
 
 Given a patient summary and an initial collection of clinical trials, the first step is TrialGPT-Retrieval, which generates a list of keywords for the patient and utilizes a hybrid-fusion retrieval mechanism to get relevant trials (component a in the figure). 
 
@@ -48,10 +48,10 @@ Given a patient summary and an initial collection of clinical trials, the first 
 
 After generating the keywords, one can run the code below for retrieving relevant clinical trials. The retrieved trials will be saved in the `./results/` directory.
 
-## TrialGPT-Matching
+## ClinicalTrialLLM-Matching
 
 After retrieving the candidate clinical trials with TrialGPT-Retrieval, the next step is to use TrialGPT-Matching to perform fine-grained criterion-by-criterion analyses on each patient-trial pair (component b in the figure).
-## TrialGPT-Ranking
+## ClinicalTrialLLM-Ranking
 
 The final step is to use TrialGPT-Ranking to aggregate the criterion-level predictions into trial-level scores for ranking (component c in the figure).
 ```
