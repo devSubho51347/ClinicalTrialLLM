@@ -1,4 +1,4 @@
-__author__ = "qiao"
+
 
 """
 generate the search keywords for each patient
