@@ -1,4 +1,4 @@
-__author__ = "qiao"
+
 
 """
 Running the TrialGPT matching for three cohorts (sigir, TREC 2021, TREC 2022).
