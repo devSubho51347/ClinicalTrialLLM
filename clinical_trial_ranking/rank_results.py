@@ -1,4 +1,4 @@
-__author__ = "qiao"
+
 
 """
 Rank the trials given the matching and aggregation results
