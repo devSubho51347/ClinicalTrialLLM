@@ -1,4 +1,4 @@
-__author__ = "qiao"
+
 
 """
 Using GPT to aggregate the scores by itself.
