@@ -1,4 +1,4 @@
-__author__ = "qiao"
+
 
 """
 TrialGPT-Matching main functions.
