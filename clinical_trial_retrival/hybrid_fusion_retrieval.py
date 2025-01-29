@@ -1,4 +1,4 @@
-__author__ = "qiao"
+
 
 """
 Conduct the first stage retrieval by the hybrid retriever 
